@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [onlineCalculater]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="CalCAdd(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.onlineCalculater.testCases.TC_Cal_Add">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="CalAddTest"/>
+        </methods>
+      </class> <!-- com.onlineCalculater.testCases.TC_Cal_Add -->
+    </classes>
+  </test> <!-- CalCAdd(failed) -->
+  <test thread-count="3" parallel="methods" name="CalCSub(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.onlineCalculater.testCases.TC_Cal_Sub">
+        <methods>
+          <include name="CalSubTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.onlineCalculater.testCases.TC_Cal_Sub -->
+    </classes>
+  </test> <!-- CalCSub(failed) -->
+  <test thread-count="3" parallel="methods" name="CalCMulti(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.onlineCalculater.testCases.TC_Cal_Multi">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CalMultiTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.onlineCalculater.testCases.TC_Cal_Multi -->
+    </classes>
+  </test> <!-- CalCMulti(failed) -->
+  <test thread-count="3" parallel="methods" name="CalCDiv(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.onlineCalculater.testCases.TC_Cal_Div">
+        <methods>
+          <include name="CalDivTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.onlineCalculater.testCases.TC_Cal_Div -->
+    </classes>
+  </test> <!-- CalCDiv(failed) -->
+</suite> <!-- Failed suite [onlineCalculater] -->

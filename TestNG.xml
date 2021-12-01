@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  parallel="true" thread-count="3" name="onlineCalculater" guice-stage="DEVELOPMENT">
+
+  <test name="CalCAdd" verbose="2">
+
+  <parameter name="browser" value="chrome"/> 
+  <classes>
+    
+       <class name ="com.onlineCalculater.testCases.TC_Cal_Add"/> 
+
+    </classes>
+  </test>
+
+      <test name="CalCSub" verbose="2">
+
+		  <parameter name="browser" value="chrome"/> 
+		  <classes>
+		    
+		       <class name ="com.onlineCalculater.testCases.TC_Cal_Sub"/> 
+		
+		    </classes>
+	  </test>
+	  
+		   <test name="CalCMulti" verbose="2">
+	
+			  <parameter name="browser" value="chrome"/> 
+			  <classes>
+			    
+			       <class name ="com.onlineCalculater.testCases.TC_Cal_Multi"/> 
+			
+			    </classes>
+	  </test>
+	  
+	  <test name="CalCDiv" verbose="2">
+	
+			  <parameter name="browser" value="chrome"/> 
+			  <classes>
+			    
+			       <class name ="com.onlineCalculater.testCases.TC_Cal_Div"/> 
+			
+			    </classes>
+	  </test>
+    
+  </suite> <!-- Create account suit -->
+
+
+            

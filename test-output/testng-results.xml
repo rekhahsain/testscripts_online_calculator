@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-01T05:24:35Z" name="onlineCalculater" finished-at="2021-12-01T05:25:09Z" duration-ms="34571">
+    <groups>
+    </groups>
+    <test started-at="2021-12-01T05:24:35Z" name="CalCAdd" finished-at="2021-12-01T05:24:52Z" duration-ms="17656">
+      <class name="com.onlineCalculater.testCases.TC_Cal_Add">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Add@3e3047e6]" started-at="2021-12-01T05:24:35Z" name="setup" finished-at="2021-12-01T05:24:50Z" duration-ms="15631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CalAddTest()[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Add@3e3047e6]" started-at="2021-12-01T05:24:50Z" name="CalAddTest" finished-at="2021-12-01T05:24:52Z" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalAddTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Add@3e3047e6]" started-at="2021-12-01T05:24:52Z" name="tearDown" finished-at="2021-12-01T05:24:52Z" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.onlineCalculater.testCases.TC_Cal_Add -->
+    </test> <!-- CalCAdd -->
+    <test started-at="2021-12-01T05:24:53Z" name="CalCSub" finished-at="2021-12-01T05:24:58Z" duration-ms="5368">
+      <class name="com.onlineCalculater.testCases.TC_Cal_Sub">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Sub@13c10b87]" started-at="2021-12-01T05:24:53Z" name="setup" finished-at="2021-12-01T05:24:56Z" duration-ms="3544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CalSubTest()[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Sub@13c10b87]" started-at="2021-12-01T05:24:56Z" name="CalSubTest" finished-at="2021-12-01T05:24:58Z" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalSubTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Sub@13c10b87]" started-at="2021-12-01T05:24:58Z" name="tearDown" finished-at="2021-12-01T05:24:58Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.onlineCalculater.testCases.TC_Cal_Sub -->
+    </test> <!-- CalCSub -->
+    <test started-at="2021-12-01T05:24:58Z" name="CalCMulti" finished-at="2021-12-01T05:25:04Z" duration-ms="5883">
+      <class name="com.onlineCalculater.testCases.TC_Cal_Multi">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Multi@4c15e7fd]" started-at="2021-12-01T05:24:58Z" name="setup" finished-at="2021-12-01T05:25:02Z" duration-ms="4284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CalMultiTest()[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Multi@4c15e7fd]" started-at="2021-12-01T05:25:02Z" name="CalMultiTest" finished-at="2021-12-01T05:25:04Z" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalMultiTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Multi@4c15e7fd]" started-at="2021-12-01T05:25:04Z" name="tearDown" finished-at="2021-12-01T05:25:04Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.onlineCalculater.testCases.TC_Cal_Multi -->
+    </test> <!-- CalCMulti -->
+    <test started-at="2021-12-01T05:25:04Z" name="CalCDiv" finished-at="2021-12-01T05:25:09Z" duration-ms="5240">
+      <class name="com.onlineCalculater.testCases.TC_Cal_Div">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Div@7692d9cc]" started-at="2021-12-01T05:25:04Z" name="setup" finished-at="2021-12-01T05:25:08Z" duration-ms="3594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CalDivTest()[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Div@7692d9cc]" started-at="2021-12-01T05:25:08Z" name="CalDivTest" finished-at="2021-12-01T05:25:09Z" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalDivTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.onlineCalculater.testCases.TC_Cal_Div@7692d9cc]" started-at="2021-12-01T05:25:09Z" name="tearDown" finished-at="2021-12-01T05:25:09Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.onlineCalculater.testCases.TC_Cal_Div -->
+    </test> <!-- CalCDiv -->
+  </suite> <!-- onlineCalculater -->
+</testng-results>
